@@ -1,0 +1,66 @@
+@using EjercicioPOO2.Models
+@model IEnumerable<ProfeModel>;
+
+@{
+    ViewData["Title"] = "Listado de Profesores";
+
+    DateTime hoy=new DateTime(2024,05,17);
+}
+
+
+<h2>@DateTime.Now </h2>
+
+
+
+   <h1 class="display-2">Listado de Maestros</h1>
+
+
+<a asp-controller="profes" asp-action="ProfesAdd"
+class="btn btn-primary mb-3">
+    Agregar Profesor
+</a>
+</div>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Acciones</th>
+            <th>Nombre</th>
+            <th>Materia que imparte</th>
+            <th>Sexo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var profe in Model)
+        {
+            <tr>
+                <td>
+                    <a class="btn btn-primary" asp-controller="Profes"
+                     asp-action="ProfesEdit" asp-route-id="@profe.Id">Editar</a>
+
+                      <a class="btn btn-danger" asp-controller="Profes"
+                     asp-action="ProfeShowToDelete" asp-route-id="@profe.Id">Borrar</a>
+                </td>
+                <td>
+                    @profe.Nombre
+                </td>
+                 <td>
+                    @profe.Carrera
+                </td>
+                 <td>
+                    @profe.Sexo
+                </td>
+
+
+
+            </tr>
+        }
+
+    </tbody>
+
+    <tfoot>
+
+    </tfoot>
+    
+</table>

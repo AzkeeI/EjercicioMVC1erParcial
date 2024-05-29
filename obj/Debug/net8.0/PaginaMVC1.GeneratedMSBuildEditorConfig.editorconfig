@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PaginaMVC1
+build_property.RootNamespace = PaginaMVC1
+build_property.ProjectDir = C:\Users\julia\OneDrive\Documentos\POO2 Ejercicios\EjercicioPOO2 - 1\PaginaMVC1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\julia\OneDrive\Documentos\POO2 Ejercicios\EjercicioPOO2 - 1\PaginaMVC1
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/Alumnos/AlumnosAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vc1xBbHVtbm9zQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/Alumnos/AlumnosEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vc1xBbHVtbm9zRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/Alumnos/AlumnosShowToDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vc1xBbHVtbm9zU2hvd1RvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/Alumnos/StudentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vc1xTdHVkZW50TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/Degree/DegreeAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVncmVlXERlZ3JlZUFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/Degree/DegreeEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVncmVlXERlZ3JlZUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/Degree/DegreeList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVncmVlXERlZ3JlZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/Degree/DegreeShowToDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVncmVlXERlZ3JlZVNob3dUb0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/profes/ListaProfesores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvZmVzXExpc3RhUHJvZmVzb3Jlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/profes/ProfesAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvZmVzXFByb2Zlc0FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/profes/ProfesEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvZmVzXFByb2Zlc0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/profes/ProfeShowToDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvZmVzXFByb2ZlU2hvd1RvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/OneDrive/Documentos/POO2 Ejercicios/EjercicioPOO2 - 1/PaginaMVC1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vvuj9slrwv

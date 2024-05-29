@@ -1,0 +1,67 @@
+@model IEnumerable<StudenttModel>;
+
+@{
+    ViewData["Title"] = "Listado de Alumnos";
+
+    DateTime fechainscripcion=new DateTime(2024,05,20);
+}
+
+<div class="text-center">
+<h2>@DateTime.Now </h2>
+<i>@fechainscripcion.ToLongDateString()</i>
+
+ <h1 class="display-2">Listado de Alumnos</h1>
+
+<a asp-controller="Alumnos" asp-action="AlumnosAdd"
+class="btn btn-primary mb-3">
+    Agregar Alumno
+</a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Acciones</th>
+            <th>Nombre</th>
+            <th>Matricula</th>
+            <th>Carrera</th>
+            <th>Edad</th>
+            <th>Sexo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var alumnos in Model)
+        {
+            <tr>
+                <td>
+                    <a class="btn btn-primary" asp-controller="Alumnos"
+                     asp-action="AlumnosEdit"asp-route-Id="@alumnos.Id">Editar</a>
+
+                      <a class="btn btn-danger" asp-controller="Alumnos"
+                     asp-action="AlumnosShowToDelete"asp-route-Id="@alumnos.Id">Borrar</a>
+                </td>
+                <td>
+                    @alumnos.Nombre
+                </td>
+                 <td>
+                    @alumnos.matricula
+                </td>
+                 <td>
+                    @alumnos.Carrera
+                </td>
+                 <td>
+                    @alumnos.Edad
+                </td>
+                 <td>
+                    @alumnos.Sexo
+                </td>
+            </tr>
+        }
+
+    </tbody>
+
+    <tfoot>
+
+    </tfoot>
+    
+</table>

@@ -1,0 +1,18 @@
+
+@model StudenttModel;
+
+@{
+    ViewData["Title"] = "Borrar Alumno";
+
+}
+<div class="mb-3">  
+  ¿Esta seguro de borrar al Alumno: @Model.Nombre?
+</div>
+
+<form asp-controller="Alumnos" asp-action="AlumnosDeleted">
+    <button type="submit" class="btn btn-danger">Borrar</button>
+    <a class="btn btn-secundary" asp-action="StudentList" asp-controller="Alumnos">
+        Regresar
+    </a>
+
+</form>

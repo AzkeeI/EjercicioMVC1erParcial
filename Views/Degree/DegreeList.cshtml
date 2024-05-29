@@ -1,0 +1,58 @@
+@using EjercicioPOO2.Models
+@model IEnumerable<DegreeModel> ;
+
+@{
+    ViewData["Title"] = "Carreras";
+
+     DateTime inicio=new DateTime (2024,05,20);
+     DateTime hoy=new DateTime(2024,05,17);
+}
+
+
+<div class="text-center">
+    <h2>@DateTime.Now </h2>
+
+
+
+    <h1 class="display-2">Listado de carreras</h1>
+
+    <img src="~/imagenes/sistemas.jpg" width="200" height="200"><br><br>
+
+    <a asp-controller="Degree" asp-action="DegreeAdd"
+    class="btn btn-primary mb-3">
+    Agregar Carrera
+</a>
+</div>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Acciones</th>
+            <th>Nombre</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var degree in Model)
+        {
+            <tr>
+                <td>
+                    <a class="btn btn-primary" asp-controller="Degree"
+                     asp-action="DegreeEdit" asp-route-id="@degree.Id">Editar</a>
+
+                      <a class="btn btn-danger" asp-controller="Degree"
+                     asp-action="DegreeShowToDelete"asp-route-id="@degree.Id">Borrar</a>
+                </td>
+                <td>
+                    @degree.Nombre
+                </td>
+            </tr>
+        }
+
+    </tbody>
+
+    <tfoot>
+
+    </tfoot>
+    
+</table>

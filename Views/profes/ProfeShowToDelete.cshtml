@@ -1,0 +1,18 @@
+@using EjercicioPOO2.Models
+@model ProfeModel;
+
+@{
+    ViewData["Title"] = "Borrar al profesor";
+
+}
+<div class="mb-3">  
+ ¿Esta seguro que desea eliminar al maestro: @Model.Nombre ?
+</div>
+
+<form asp-controller="profes" asp-action="profesDeleted">
+    <button type="submit" class="btn btn-danger">Borrar</button>
+    <a class="btn btn-secundary" asp-action="ListaProfesores" asp-controller="profes">
+        Regresar
+    </a>
+
+</form>

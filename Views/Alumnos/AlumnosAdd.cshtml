@@ -1,0 +1,47 @@
+@using Student.Models
+@using EjercicioPOO2.Models
+@{
+    ViewData["Title"] = "Alta de Alumnos";
+
+}
+<div class="text-center">  
+    <h1 class="display-2">Alta de Alumnos</h1>
+</div>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+<form asp-controller="Alumnos" asp-action="AlumnosAdd">
+
+<div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Escriba el Nombre" />
+</div>
+
+<div class="mb-3">
+        <label for="matricula" class="form-label">Matricula</label>
+        <input type="text" class="form-control" id="matricula" name="matricula" placeholder="Escriba la Matricula" />
+</div>
+
+<div class="mb-3">
+        <label for="carrera" class="form-label">Carrera</label>
+        <input type="text" class="form-control" id="carrera" name="carrera" placeholder="Escriba la Carrera" />
+</div>
+
+<div class="mb-3">
+        <label for="edad" class="form-label">Edad</label>
+        <input type="text" class="form-control" id="edad" name="edad" placeholder="Escriba la Edad" />
+</div>
+
+<div class="mb-3">
+        <label for="sexo" class="form-label">Sexo</label>
+        <input type="text" class="form-control" id="sexo" name="sexo" placeholder="Escriba el Genero" />
+</div>
+
+
+<button type ="submit" class="btn btn-primary"> Guardar</button>
+
+<a asp-controller="Alumnos" asp-action="StudentList"
+class="btn btn-secundary mb-3">
+    Regresar
+</a>
+
+</form>
